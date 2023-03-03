@@ -6,10 +6,10 @@ Implementation of the neural network architecture of the NVIDIA DAVE-2
 
 Paper:    
 
-@article{bojarski2016end,
-  title={End to end learning for self-driving cars},
-  author={Bojarski, Mariusz and Del Testa, Davide and Dworakowski, Daniel and Firner, Bernhard and Flepp, Beat and Goyal, Prasoon and Jackel, Lawrence D and Monfort, Mathew and Muller, Urs and Zhang, Jiakai and others},
-  journal={arXiv preprint arXiv:1604.07316},
+@article{bojarski2016end,  
+  title={End to end learning for self-driving cars},  
+  author={Bojarski, Mariusz and Del Testa, Davide and Dworakowski, Daniel and Firner, Bernhard and Flepp, Beat and Goyal, Prasoon and Jackel, Lawrence D and Monfort, Mathew and Muller, Urs and Zhang, Jiakai and others},  
+  journal={arXiv preprint arXiv:1604.07316},  
   year={2016}
 }  
 
