@@ -1,14 +1,9 @@
 import torch
 from torch import nn
 class Policy(nn.Module):
-    def __init__(self, a_dim):
+    def __init__(self, a_dim): # initialize the layers of the network
         super(Policy, self).__init__()
-        """
-        This function initializes the different layers of the architecture.
-
-        input:
-            a_dim (type: int): dimension of the output
-        """
+        
         # Convolutional layers of the DAVE-2 architecture:
 
         self.cnn1 = nn.Conv2d(3, 24, 5, stride=2)
@@ -22,7 +17,7 @@ class Policy(nn.Module):
         self.cnn5 = nn.Conv2d(64, 64, 3)
         self.relu = nn.ELU(self.cnn5)
 
-       # Fully connected layers of the DAVE-2 architecture:
+        # Fully connected layers of the DAVE-2 architecture:
 
         self.fcn1 = nn.Linear(in_features=1152, out_features=100)
         self.relu = nn.ELU(self.fcn1)
